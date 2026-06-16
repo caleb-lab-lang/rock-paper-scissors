@@ -7,8 +7,18 @@
 </head>
 <body>
     <h1>Rock Paper Scissors Game</h1>
-    <p>Right-click this page, select <strong>Inspect</strong>, and click the <strong>Console</strong> tab to play!</p>
 
+    <div id ="game-buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+
+    <div id ="results-container">
+        <p id="round-result">Choose your weapon to start the match!</p>
+        <p id="running-score">Running Score: 0 | Computer: 0</p>
+        <h2 id="match-winner" style="color: blue;"></h2>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
